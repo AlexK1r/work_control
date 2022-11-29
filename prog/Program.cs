@@ -15,11 +15,11 @@ void FillArray(string[] InitialArray, string[] NewArray, int LengthElement)
 }
 
 //Функция вывода на экран 
-void PrintArray(string[] InitialArray)
+void PrintArray(string[] NewArray)
 {
-    for (int i = 0; i < InitialArray.Length; i++)
+    for (int i = 0; i < NewArray.Length; i++)
     {
-        Console.Write(InitialArray[i] + " ");
+        Console.Write(NewArray[i] + " ");
     }
 }
 
